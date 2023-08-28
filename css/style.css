@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    flex-direction: column;
+    align-items: center;
+}
+.flex-container{
+    display: flex;
+    width: 85%;
+    background-color: white;
+    justify-content: space-around;
+    padding: 35px 0;
+    border-top: 1px solid;
+}
+.column{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.flex{
+    display: flex;
+}
+.lado-a{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+h1{
+    font-size: 2.2rem;
+    width: 300px;
+}
+.p-centrado{
+    width: 400px;
+    text-align: center;
+}
+.botones{
+    display: flex;
+    gap: 10px;
+}
+.botones button{
+    background: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+.botones button:hover{
+    background-color: black;
+    color: white;
+}
+.lado-b{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4NeEHvHacAzspRSFhlUCjF0zahx5Eh_y6bQ&usqp=CAU);
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.beneficio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    font-size: 1rem;
+}
+.beneficio i{
+    font-size: 2.5rem;
+}
+#prueba{
+    font-size: 1rem;
+}
